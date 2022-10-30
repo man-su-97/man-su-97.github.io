@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.container {
+    width: 1120px;
+    margin: 0px auto;
+    max-width: 90%;
+}
+.navbar{
+ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.30rem;
+    font-size: 1.30rem;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.navbar>div>span{
+ font-size: 1.50rem;
+ font-weight: bolder;
+}
+.navbar>div>ul{
+    display: flex;
+ 
+    
+}
+.navbar>div>ul>li{
+    margin-left: 2rem;
+   list-style: none;
+
+}
+.navbar>div>ul>li>a{
+    text-decoration: none;
+    color: rgb(0,0,0, 0.900);
+   
+}
+.navbar>div>ul>li>a>img{
+    width:2rem;
+}
+
+/* home section */
+
+.home{
+ padding: 5rem 0rem;
+ border-bottom: 1px solid black;
+
+}
+.home>h2{
+    padding: 0.20rem;
+    font-size: 3rem;
+    font-family:'IBM Plex Sans', sans-serif;
+    border-bottom: 2px solid black;
+    width: 70%;
+    font-weight: 700;
+}
+.home>p{
+   margin-top: 1rem;
+    padding: 0.20rem;
+    font-size: 1.40rem;
+    color: rgb(0,0,0, 0.600);
+    font-family:'IBM Plex Sans', sans-serif;
+    width: 70%;
+}
+
+.Project>h2{
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 3rem;
+    padding: 1rem;
+   font-weight: 800;
+
+}
+.cardItem{
+    margin-top: 2rem;
+    border: 1px solid rgb(0,0,0, 0.300);
+}
+.card{
+    margin: 1rem 0rem;
+    text-decoration: none;
+    color: black;
+   
+
+   
+
+}
+.Card-box{
+    display: flex;
+   background-color: #f5f5f5;
+   padding: 1rem;
+}
+.cart-Item{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family:'IBM Plex Sans', sans-serif;
+    justify-content: center;
+}
+.cart-Item,h4{
+  font-size: 1.20rem;
+  padding: 0.5rem;
+  color: rgb(0,0,0, 0.600);
+
+  
+}
+.cart-Item,h2{
+    font-size: 1.90rem;
+    padding: 0.5rem;
+    color: rgb(0,0,0, 0.900)
+
+  }
+  .cart-Item,p{
+    font-size: 1rem;
+    padding: 0.5rem;
+    color: rgb(0,0,0, 0.500);
+
+  }
+ .cart-Item,a{
+    margin-top: 1rem;
+    color: rgb(0,0,0, 0.900);
+    font-size: 1.30rem;
+    font-weight: bolder;
+    text-decoration: none;  
+  }
+.cart-Item>img{
+    width: 30rem;
+    object-fit: contain;
+
+}
